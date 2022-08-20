@@ -19,12 +19,12 @@ The Mbed OS scheduling capabilities include managing objects such as threads, sy
     <th><h3>Bare metal profile</h3></th>
   </tr>
   <tr>
-    <td>data baris 1 kolom 1</td>
+    <td>ConditionVariable</td>
     <td>data baris 1 kolom 2</td>
     <td>data baris 1 kolom 3</td>
   </tr>
   <tr>
-    <td>data baris 2 kolom 1</td>
+    <td>EventFlags</td>
     <td>data baris 2 kolom 2</td>
     <td>data baris 2 kolom 3</td>
   </tr>
