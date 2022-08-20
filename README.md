@@ -7,3 +7,4 @@ Untuk daftar API yang dihapus di Mbed OS 6, lihat daftar API yang tidak digunaka
 <h3>Setup MotorDC</h3>
 
 <h3>Scheduling</h3>
+The Mbed OS scheduling capabilities include managing objects such as threads, synchronization objects and timers. It also provides interfaces for attaching an application-specific idle hook function, reads the OS tick count and implements functionality to report RTOS errors.
