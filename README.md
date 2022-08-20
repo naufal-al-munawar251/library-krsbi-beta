@@ -16,4 +16,14 @@ The Mbed OS scheduling capabilities include managing objects such as threads, sy
     <th>kolom 2</th>
     <th>kolom 3</th>
   </tr>
+  <tr>
+    <td>data baris 1 kolom 1</td>
+    <td>data baris 1 kolom 2</td>
+    <td>data baris 1 kolom 3</td>
+  </tr>
+  <tr>
+    <td>data baris 2 kolom 1</td>
+    <td>data baris 2 kolom 2</td>
+    <td>data baris 2 kolom 3</td>
+  </tr>
 </table>
