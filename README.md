@@ -33,6 +33,7 @@ The Mbed OS scheduling capabilities include managing objects such as threads, sy
 <h3>PwmOut hello, world</h3>
 Contoh kode ini menggunakan periode default 0,020 detik dan meningkatkan siklus tugas dari 0% menjadi 100% dengan peningkatan 10%.
 
+
 ```
 /*
  * Copyright (c) 2014-2020 Arm Limited and affiliates.
@@ -55,4 +56,30 @@ int main()
     //led.pulsewidth(2);   // alternative to led.write, set duty cycle time in seconds
     while (1);
 }
+```
+
+<h2>PwmOut code examples</h2>
+<h3>Example one</h3>
+
+```
+/*
+ * Copyright (c) 2017-2020 Arm Limited and affiliates.
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+#include "mbed.h"
+
+// Adjust pin name to your board specification.
+// You can use LED1/LED2/LED3/LED4 if any is connected to PWM capable pin,
+// or use any PWM capable pin, and see generated signal on logical analyzer.
+PwmOut led(LED2);
+
+int main()
+{
+    // specify period first, then everything else
+    led.period(4.0f);  // 4 second period
+    led.write(0.50f);  // 50% duty cycle
+    while (1);         // led flashing
+}
+
 ```
