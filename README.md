@@ -157,3 +157,13 @@ int main()
 }
 
 ```
+
+<h3>Membuat jeda</h3>
+
+Jika anda ingin menjeda dalam memproses program Roda Motor DC silahkan tulis codingan bawah ini.
+
+```
+// 1000 itu adalah sebuah waktu lama dalam menjeda
+ThisThread::sleep_for(1000);
+
+```
