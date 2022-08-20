@@ -131,6 +131,7 @@ int main()
 
 Contoh berikut melakukan hal yang sama, tetapi alih-alih menentukan siklus tugas sebagai persentase relatif dari periode, ini menetapkannya sebagai nilai absolut dalam hitungan detik. Dalam hal ini kami memiliki periode empat detik dan siklus tugas dua detik, artinya LED akan menyala selama dua detik dan mati selama dua detik.
 
+
 ```
 
 /*
