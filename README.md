@@ -61,6 +61,9 @@ int main()
 <h2>PwmOut code examples</h2>
 <h3>Example one</h3>
 
+Contoh kode ini menetapkan periode dalam detik dan siklus tugas sebagai persentase periode dalam floating point (kisaran: 0 hingga 1). Efek dari cuplikan kode ini adalah mengedipkan LED2 selama siklus empat detik, 50% aktif, untuk pola dua detik aktif, dua detik mati.
+
+
 ```
 /*
  * Copyright (c) 2017-2020 Arm Limited and affiliates.
@@ -79,6 +82,34 @@ int main()
     // specify period first, then everything else
     led.period(4.0f);  // 4 second period
     led.write(0.50f);  // 50% duty cycle
+    while (1);         // led flashing
+}
+
+```
+
+<h3>Example two</h3>
+
+Contoh berikut melakukan hal yang sama, tetapi alih-alih menentukan siklus tugas sebagai persentase relatif dari periode, ini menetapkannya sebagai nilai absolut dalam hitungan detik. Dalam hal ini kami memiliki periode empat detik dan siklus tugas dua detik, artinya LED akan menyala selama dua detik dan mati selama dua detik.
+
+```
+
+/*
+ * Copyright (c) 2017-2020 Arm Limited and affiliates.
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+#include "mbed.h"
+
+// Adjust pin name to your board specification.
+// You can use LED1/LED2/LED3/LED4 if any is connected to PWM capable pin,
+// or use any PWM capable pin, and see generated signal on logical analyzer.
+PwmOut led(LED2);
+
+int main()
+{
+    // specify period first, then everything else
+    led.period(4.0f);  // 4 second period
+    led.pulsewidth(2); // 2 second pulse (on)
     while (1);         // led flashing
 }
 
