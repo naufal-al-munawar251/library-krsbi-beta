@@ -15,8 +15,8 @@ The Mbed OS scheduling capabilities include managing objects such as threads, sy
 <table border="1px">
   <tr>
     <th><h3>API</h3></th>
-    <th>kolom 2</th>
-    <th>kolom 3</th>
+    <th><h3>Full profile</h3></th>
+    <th><h3>Bare metal profile</h3></th>
   </tr>
   <tr>
     <td>data baris 1 kolom 1</td>
