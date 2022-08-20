@@ -9,7 +9,7 @@ Untuk daftar API yang dihapus di Mbed OS 6, lihat daftar API yang tidak digunaka
 
 <h3>Scheduling</h3>
 
-The Mbed OS scheduling capabilities include managing objects such as threads, synchronization objects and timers. It also provides interfaces for attaching an application-specific idle hook function, reads the OS tick count and implements functionality to report RTOS errors.
+Kemampuan penjadwalan Mbed OS mencakup pengelolaan objek seperti utas, objek sinkronisasi, dan pengatur waktu. Ini juga menyediakan antarmuka untuk melampirkan fungsi pengait idle khusus aplikasi, membaca jumlah tick OS dan mengimplementasikan fungsionalitas untuk melaporkan kesalahan RTOS.
 
 
 <h3>RTOS</h3>
