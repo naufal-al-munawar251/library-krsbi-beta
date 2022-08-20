@@ -30,7 +30,8 @@ The Mbed OS scheduling capabilities include managing objects such as threads, sy
 </table>
 
 <h2>Referensi PwmOut</h2>
-<h3>Native</h3>
+<h3>PwmOut hello, world</h3>
+Contoh kode ini menggunakan periode default 0,020 detik dan meningkatkan siklus tugas dari 0% menjadi 100% dengan peningkatan 10%.
 
 ```
 /*
