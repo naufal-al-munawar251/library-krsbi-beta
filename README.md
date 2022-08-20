@@ -32,6 +32,3 @@ The Mbed OS scheduling capabilities include managing objects such as threads, sy
 <h2>Referensi PwmOut</h2>
 <h3>Native</h3>
 https://os.mbed.com/docs/mbed-os/v6.15/apis/pwmout.html
-<textarea>
-  jnefjenfjefenf
-  </textarea>
