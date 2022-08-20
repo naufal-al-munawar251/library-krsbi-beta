@@ -27,6 +27,46 @@ The Mbed OS scheduling capabilities include managing objects such as threads, sy
     <td>✔</td>
     <td>✔</td>
   </tr>
+  <tr>
+    <td>Idle loop</td>
+    <td>✔</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Kernel interface functions</td>
+    <td>✔</td>
+    <td>get_ms_count only</td>
+  </tr>
+  <tr>
+    <td>Mail</td>
+    <td>✔</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Mutex</td>
+    <td>✔</td>
+    <td>✔</td>
+  </tr>
+  <tr>
+    <td>Queue</td>
+    <td>✔</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Semaphore</td>
+    <td>✔</td>
+    <td>✔</td>
+  </tr>
+  <tr>
+    <td>ThisThread</td>
+    <td>✔</td>
+    <td>✔</td>
+  </tr>
+  <tr>
+    <td>Thread</td>
+    <td>✔</td>
+    <td></td>
+  </tr>
 </table>
 
 <h2>Referensi PwmOut</h2>
