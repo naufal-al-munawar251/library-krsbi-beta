@@ -165,5 +165,4 @@ Jika anda ingin menjeda dalam memproses program Roda Motor DC silahkan tulis cod
 ```
 // 1000 itu adalah sebuah waktu lama dalam menjeda
 ThisThread::sleep_for(1000);
-
 ```
